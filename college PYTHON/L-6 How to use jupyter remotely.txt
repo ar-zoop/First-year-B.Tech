@@ -1,0 +1,10 @@
+IP adress:
+Every comp has an ip address. (Localhost:8888)
+
+Every comp gets a new ip address when its connected to internet. Its provided by ISP
+
+PORT:
+
+
+HOW TO USE IT:
+Look the internet for it

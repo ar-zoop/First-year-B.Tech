@@ -1,0 +1,18 @@
+#While Loop:
+initialize variable
+while condition:
+	statetment
+	increment/decrement of variable
+
+#While else:
+while condition:
+	statement
+	if:
+		break
+else:
+	statement
+
+#While True
+While True:
+	statement
+	condition(s)

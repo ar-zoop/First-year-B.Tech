@@ -1,0 +1,11 @@
+IF-ELSE
+a=int(input())
+b=int(input())
+if a>b:
+    print("a is greater")<---True
+else:
+    print("b is greater")
+
+IF-ELSE IN ONE LINE
+(True) (if-Condition) (else) (False)
+print("a is greater") if a>b else print("b is greater")

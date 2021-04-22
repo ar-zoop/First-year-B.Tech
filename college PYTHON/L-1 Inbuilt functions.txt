@@ -1,0 +1,100 @@
+OPERATORS:
+a=17
+b=3
+print(a/b)
+>>5.666 <---- gives answer in float despite everything being int
+
+print(a//b) <----floor division
+>>5
+
+a=18
+b=3.6
+
+SHORTHAND OPERATORS:
+a+=1
+a*=1
+a-=1
+a/=1
+
+INPUT:
+*takes input default as string
+*must typecast for any other datatypes
+a=int(input("enter a number: "))
+
+INTERPRETOR:
+*reads code line by line
+*performs the code until an error occurs
+
+MUTABLE-IMMUTABLE & MEMORY ADDRESS:
+*the variables are immutable.
+*immutable means that the variable cannot be overwritten.
+ It stores the value in some other address.
+a=13
+print(id(a))
+>>1234567567
+
+a=14
+print(id(a))
+>> 123456789
+
+SIZE :
+import sys
+a=1
+sys.getsizeof(a)
+>>24
+
+DATATYPES:
+*float causes errors. it does not save ccurately
+a=099
+>>error
+
+a=0
+>>no error 
+
+CONCATENATION of STRINGS:
+a="arzoo"
+b="bapna"
+print(a+b)
+>>arzoobapna
+
+print(a,b)
+>>arzoo bapna
+
+SEPARATOR of STRINGS WHILE PRINTING:
+a="arzoo"
+b="bapna"
+print(a,b,sep="#")
+>>arzoo#bapna
+
+print("hello","hi",sep="#$%")
+>>hello#$%hi
+
+END of STRINGS WHILE PRINTING
+print("Hello",end='\n\n')
+print("World")
+>>Hello
+>>
+>>
+
+print("hello","hi",end="23456")
+>>hello hi23456
+
+
+ASCII CODE:
+ord('A')<--- to find ascii code of any character
+>>65
+
+chr(65)<--- to find character of any number
+>>'A'
+
+PRINT FUNCTION:
+print() function gives newline by default.
+
+print("*", end="")<---does not give newline after printing
+
+print()<---gives newline
+
+print("\n")<--- gives 2 newlines
+
+
+

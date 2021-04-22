@@ -1,0 +1,18 @@
+To create new line:
+esc+a
+esc+b
+[+] button on bar
+
+To write only comments in a line:
+Use markdown option from code dropdown menu
+
+How to execute line:
+In[*]<--- the code is running
+In[number]<---number of times it has been executed
+Only 1 line can have 1 In[*] at a time. Interrupt and run again.
+
+Extension:
+.ipynb
+
+To convert into diff file types:
+Click on file dropdown menu.-> Download as -> Choose an extension

@@ -1,0 +1,110 @@
+#TYPES OF LOOPS:
+1. Entry control<---for loop and while loop
+2. Exit control<---do while loop
+
+
+#FOR LOOP:
+for i in "PYTHON":
+	print (i)
+>>P
+Y
+T
+H
+O
+N<<
+
+for i in 5:
+	print("hi")
+>>error:int object is not iterable
+
+
+#FOR LOOP RANGE FUNCTION:
+for i in range (start,end,step):<---starting point included. ending point excluded.
+	Calculation
+
+for i in range (5):
+	print(i)
+>>0<---Range function begins from 0 by default
+1
+2
+3
+4<<
+
+for i in range (11,16):
+	print("Hello world", i)
+>>Hello world 11
+Hello world 12
+Hello world 13
+Hello world 14
+Hello world 15<<
+
+
+#FOR LOOP STEPPING:
+for i in range (11,16):
+    print(i)
+    i+=2
+>>11
+12
+13
+14
+15<<---- changing i in loop does not change value of i whatsoever
+
+for i in range (11,20,2):
+	print(i)
+>>hello world 11
+hello world 13
+hello world 15
+hello world 17
+hello world 19<<
+
+
+#FOR LOOP STEPPING REVERSE:
+for i in range (10,0,-1):
+    print ( i)
+>>10
+9
+8
+7
+6
+5
+4
+3
+2
+1<<
+
+for i in range (10,0):<--- step up is 1 not -1.
+    print ( i)
+>> <---does not print anything. no error given. simply leaves the loop.
+
+
+#FOR LOOP TIME DELAY:
+for i in range (0,100000):
+	pass
+print("hello")
+>>hello
+
+#FOR ELSE
+for i in range (0,5):
+	print(i)
+else:
+	print("Hello")
+>>0
+1
+2
+3
+4
+Hello<<
+
+for i in range (0,5):
+	print(i)
+	if i==4:
+		break
+else:
+	print("Hello")
+>>0
+1
+2
+3
+4<<
+
+
